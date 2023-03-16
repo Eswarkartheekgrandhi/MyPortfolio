@@ -59,18 +59,24 @@
 @media (max-width: 768px) {
   .education_container {
     height: 600px;
-    transform: translate(-50%, 7%);
+    transform: translate(-50%, 4%);
     width: 80%;
   }
   .education_body {
     display: flex;
     flex-direction: column;
   }
+
   .education_top h2 {
     top: 5%;
   }
   .education_body a {
     top: 92%;
     right: 3%;
+  }
+
+  .education_body p {
+    font-size: 19px;
+    text-align: center;
   }
 }

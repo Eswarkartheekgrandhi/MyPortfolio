@@ -163,7 +163,7 @@
     transform: translate(-50%, -20%);
   }
   .about .home_image img {
-    height: 220px;
+    height: 210px;
   }
   .backend {
     flex-direction: column;
@@ -187,6 +187,15 @@
 
   .skills .list {
     width: 90%;
+  }
+
+  .about .prompt p {
+    font-size: 20px;
+    /* margin-top: 0%; */
+  }
+
+  .about .prompt .prompt_p {
+    margin-top: 1%;
   }
 }
 
